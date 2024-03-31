@@ -1,0 +1,10 @@
+@import "./shared/maps";
+
+@import "./components/navButton";
+@import "./components/about/hero";
+html,
+body {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}

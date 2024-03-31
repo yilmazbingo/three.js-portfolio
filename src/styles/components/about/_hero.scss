@@ -1,0 +1,104 @@
+.flipper {
+  height: 100%;
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flipper.isFlipping {
+  transform: rotateY(-180deg);
+}
+
+.front,
+.back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+front {
+  transform: rotateY(0deg);
+  z-index: 9999;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+section.hero-section {
+  background-position: center;
+  background-size: cover;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  .rotating-image {
+    height: 47%;
+    // height: calc(5rem + 20vmax);
+    // padding: calc(1rem + 2vw);
+    // height: calc(5rem + 20vmax);
+    justify-content: space-between;
+    width: 35rem;
+    // width: calc(15rem + 20vmax);
+    padding: 0 0;
+    // perspective: 100rem;
+    color: white;
+    position: relative;
+  }
+}
+
+.image-1 {
+  background-image: url("/background/frontend.jpeg");
+
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: -17px 13px 41px rgba(13, 78, 158, 0.6);
+  border: 0.2rem solid white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  .frontend {
+    text-align: center;
+    // letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    color: rgb(200, 255, 0);
+    margin-bottom: 2rem;
+    font-family: "Montserrat-Bold" !important;
+  }
+}
+
+.image-2 {
+  background-image: url("/background/backend.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  border: 0.2rem solid white;
+  box-shadow: -17px 13px 41px rgba(13, 78, 158, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  .backend {
+    // letter-spacing: 0.3rem;
+    text-align: center;
+    color: rgb(200, 255, 0);
+    font-family: "Lobster-Regular" !important;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+}
+.image {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repat;
+  background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .rotating-image {
+    width: 100%;
+  }
+}

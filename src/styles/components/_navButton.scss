@@ -1,0 +1,152 @@
+.github {
+  svg {
+    height: 4rem !important;
+    width: 4rem !important;
+    background-color: map-get($icon-bg-colors, github);
+    color: map-get($icon-colors, github);
+    border-radius: 50%;
+    position: relative;
+    &:hover {
+      color: black;
+      background-color: white;
+    }
+  }
+}
+
+.linkedin {
+  svg {
+    height: 4rem !important;
+    width: 4rem !important;
+    background-color: map-get($icon-bg-colors, linkedin);
+    color: map-get($icon-colors, linkedin);
+    border-radius: 10%;
+    &:hover {
+      color: rgb(25, 25, 109);
+    }
+  }
+}
+.instagram {
+  svg {
+    height: 4rem !important;
+    width: 4rem !important;
+    background: radial-gradient(
+      circle at 30% 107%,
+      #fdf497 0%,
+      #fdf497 5%,
+      #fd5949 45%,
+      #d6249f 60%,
+      #285aeb 90%
+    );
+    // color: map-get($icon-colors, linkedin);
+    border-radius: 10%;
+
+    &:hover {
+      color: rgb(25, 25, 109);
+    }
+  }
+}
+.pinterest {
+  svg {
+    height: 4rem !important;
+    width: 4rem !important;
+    background-color: map-get($icon-bg-colors, pinterest);
+    color: map-get($icon-colors, pinterest);
+    border-radius: 10%;
+    &:hover {
+      background-color: #e60023;
+      color: white;
+    }
+  }
+}
+
+.stackoverflow {
+  svg {
+    height: 4rem !important;
+    width: 4rem !important;
+    // color: rgb(235, 152, 0);
+    color: map-get($icon-colors, stackoverflow);
+    &:hover {
+      background-color: white;
+    }
+    &:active {
+      color: red;
+    }
+  }
+}
+.twitter {
+  svg {
+    height: 4rem !important;
+    width: 4rem !important;
+    // color: rgb(235, 152, 0);
+    color: map-get($icon-colors, twitter);
+    &:hover {
+      background-color: white;
+    }
+    &:active {
+      color: red;
+    }
+  }
+}
+
+.youtube {
+  svg {
+    height: 4rem !important;
+    width: 4rem !important;
+    // color: rgb(235, 152, 0);
+    color: map-get($icon-colors, youtube);
+    &:hover {
+      background-color: white;
+    }
+    &:active {
+      color: red;
+    }
+  }
+}
+.user {
+  svg {
+    height: 4rem !important;
+    width: 4rem !important;
+    // color: rgb(235, 152, 0);
+    color: map-get($icon-colors, user);
+    &:hover {
+      background-color: white;
+    }
+    &:active {
+      color: red;
+    }
+  }
+}
+
+.home {
+  svg {
+    height: 4rem !important;
+    width: 4rem !important;
+    // color: rgb(235, 152, 0);
+    color: map-get($icon-colors, home);
+    background-color: map-get($icon-bg-colors, home);
+
+    &:hover {
+      background-color: white;
+    }
+    &:active {
+      color: red;
+    }
+  }
+}
+
+.contact {
+  svg {
+    height: 4rem !important;
+    width: 4rem !important;
+    // color: rgb(235, 152, 0);
+    color: map-get($icon-colors, home);
+    background-color: map-get($icon-bg-colors, home);
+
+    &:hover {
+      background-color: white;
+    }
+    &:active {
+      color: red;
+    }
+  }
+}

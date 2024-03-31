@@ -21,12 +21,12 @@ const Hero = () => {
         <div className={`flipper ${isFlipping ? "isFlipping" : ""}`}>
           <div className="front">
             <div className="image image-1">
-              <h1 className="frontend">Front End</h1>
+              <h1 className="frontend text-4xl">Front End</h1>
             </div>
           </div>
           <div className="back">
             <div className="image image-2">
-              <h1 className="backend"> Back End</h1>
+              <h1 className="backend text-4xl"> Back End</h1>
             </div>
           </div>
         </div>

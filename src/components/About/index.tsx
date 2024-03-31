@@ -10,10 +10,10 @@ const AboutDetails = () => {
             " col-span-full lg:col-span-8 row-span-2 flex-col items-start"
           }
         >
-          <h1 className="md:text-2xl lg:text-5xl text-black text-left w-full capitalize">
+          <h1 className="xs:text-2xl md:text-3xl xs:font-semibold lg:text-5xl text-black text-left w-full capitalize">
             Architect of Digital Innovation
           </h1>
-          <p className="font-light text-white   text-xs sm:text-sm md:text-xl lg:text-3xl   ">
+          <p className="text-white   xs:text-xl font-medium md:text-xl lg:text-3xl   ">
             Hello! I'm a passionate Software Engineer specializing in the realms
             of blockchain and full-stack development. With a deep proficiency in
             Ethereum, Solidity, Next.js, React.js, Node.js, JavaScript, Rust,

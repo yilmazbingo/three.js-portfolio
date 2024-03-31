@@ -13,7 +13,7 @@ const Hero = () => {
   const startAnimation = () => {
     flipInterval.current = setInterval(() => {
       setIsFlipping((prevFlipping) => !prevFlipping);
-    }, 10000);
+    }, 6000);
   };
   return (
     <section className="hero-section">

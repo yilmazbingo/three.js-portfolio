@@ -29,7 +29,7 @@ const Navigation = () => {
     <div className="w-full fixed h-screen flex items-center justify-center">
       <ResponsiveComponent>
         {({ size }) => {
-          return size && size >= 480 ? (
+          return size && size >= 320 ? (
             <motion.div
               variants={container}
               initial="hidden"

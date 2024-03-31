@@ -15,7 +15,7 @@ export const metadata = {
     template:
       "Yilmaz Bingol is a software engineer and mathematician based on New York",
     default:
-      "Next.js Portfolio Created with Three.js and Tailwind CSS by Yilmaz Bingol",
+      "Yilmaz Bingol is a software engineer and mathematician based on New York",
   },
   description:
     "A unique creative portfolio designed by Yilmaz Bingol with cutting-edge technologies like Next.js-14, Tailwind CSS, Three.js, and Framer Motion.",

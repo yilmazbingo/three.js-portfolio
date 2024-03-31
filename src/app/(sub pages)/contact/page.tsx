@@ -3,7 +3,9 @@ import bg from "../../../../public/background/contact.jpg";
 import Form from "@/components/Contact/Form";
 
 export const metadata = {
-  title: "Contact Yilmaz Bingol",
+  title: "Contact Yilmaz Bingol - Let's Connect and Collaborate!",
+  description:
+    "Contact Yilmaz Bingol, software engineer communication, mathematician contact info, project collaboration, tech inquiries",
 };
 
 export default function Contact() {
@@ -11,7 +13,7 @@ export default function Contact() {
     <>
       <Image
         src={bg}
-        alt="Next.js Portfolio website's contact page background image"
+        alt="Next.js Yilmaz Bingol contact page background image"
         priority
         sizes="100vw"
         className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-50"

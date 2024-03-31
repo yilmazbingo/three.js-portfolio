@@ -6,7 +6,9 @@ import Hero from "@/components/About/Hero";
 import dynamic from "next/dynamic";
 
 export const metadata = {
-  title: "About",
+  title: "About Yilmaz BINGOL - Software Engineer & Mathematician",
+  description:
+    "Learn about Yilmaz Bingol, a passionate Software Engineer and Mathematician",
 };
 
 export default function Home() {

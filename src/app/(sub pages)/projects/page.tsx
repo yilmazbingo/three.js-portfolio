@@ -11,7 +11,9 @@ const Staff = dynamic(() => import("@/components/models/Staff"), {
 });
 
 export const metadata = {
-  title: "Projects",
+  title: "Yilmaz Bingol's Projects",
+  description:
+    "Explore the portfolio of Yilmaz Bingol, featuring cutting-edge software projects",
 };
 
 export default function Home() {

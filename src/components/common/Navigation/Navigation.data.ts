@@ -35,7 +35,7 @@ export const BtnList = [
   },
   {
     label: "Instagram",
-    link: "https://www.instagram.com/zeyin_store/",
+    link: "https://www.instagram.com/zeyin_art/",
     icon: "instagram",
     newTab: true,
   },
